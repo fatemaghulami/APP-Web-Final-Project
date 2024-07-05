@@ -1,0 +1,223 @@
+body{
+    background-color: #dee2e6;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right,#6c757d,black);
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    z-index: 1;
+    position: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    color: black;
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+span{
+    color: #3e0a13;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 10px 20px;
+}
+nav a:hover{
+    transition: .3s; 
+    color: #3e0a13;
+    padding-right: 10px;
+}
+.navtool{
+    cursor: pointer;
+    display: flex;
+}
+.container {
+    width: 1000px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 85%;
+}
+.new{
+    background-color: #e9ecef;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.new .wishlist{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    visibility: hidden;
+    opacity: 0.8;
+}
+.new:hover .wishlist{
+    visibility: visible;
+}
+.new img {
+    width: 165px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.information{
+    width: 100%;
+    text-align: center;
+}
+button{
+    color: #6c757d;
+    cursor: pointer;
+}
+.seprate{
+    padding-bottom: 10px;
+    border-bottom: #6c757d solid 2px;
+}
+h1{
+    padding-top: 10px;
+    font-family: "Yellowtail", cursive;
+}
+.information button:hover{
+    transition: .3s; 
+    color: #3e0a13;
+}
+.more{
+    text-align: center;
+    cursor: pointer;
+    background-color: #6c757d;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 25px;
+    font-family: monospace;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border: #24262b solid 1px;
+    text-transform: uppercase;
+}
+.more:hover{
+    transition: .3s; 
+    color: #3e0a13;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container2{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-image: linear-gradient(180deg, black, #6c757d);
+    width: 100%;
+    padding: 60px 0;
+    border-top-right-radius: 125px;
+    border-top-left-radius: 125px;
+    font-family: monospace;
+}
+.m{
+    width: 25%;
+    padding: 0 15px;
+}
+.m h4{
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+.m ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.m ul li a{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: 0.3s ease;
+}
+.m ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+    color: #3e0a13;
+}
+.m .social-media a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.m .social-media a:hover{
+    color: #24262b;
+    background-color: #3e0a13;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+form .fa-regular{
+    font-size: 18px;
+    margin-right: 10px;
+    color: #ccc;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fa-solid{
+    font-size: 16px;
+    color: #ccc;
+}
