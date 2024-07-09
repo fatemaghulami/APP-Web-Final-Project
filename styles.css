@@ -118,7 +118,7 @@ nav a:hover{
     width: 465px;
     height: 250px;
     object-fit: cover;
-    transition: transform 3s linear;
+    transition: transform 2s linear;
 }
 .product img:hover {
     transform: scale(1.1);
